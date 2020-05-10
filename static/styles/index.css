@@ -1,0 +1,11 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    color: white !important;
+    background-color: #111111 !important;
+    font-family: 'Audiowide', cursive !important;
+}
+
+.btn {
+    color: white;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index.css') }}">
+    <link rel="icon" href="../static/img/favicon.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Submitted | Proximity Racing</title>
+    <meta name="description" content="Proximity Racing is a sanctioned iRacing.com motorsport team">
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="proximity racing, proximity, proximityracing, iracing, chris nosowsky">
+    <link rel="stylesheet" href = "{{ url_for('static',filename='styles/bootstrap.min.css') }}" media="screen">
+</head>
+<body>
+    <div class="container">
+        <div class="col-md-12">
+            <div class="text-center">
+                <h5>--- Proximity Racing Sanctioned ---</h5>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="col-md-12">
+            <div class="text-center">
+                <img src="../static/img/ProximityRacing_Logo.png" style="width: 20%; height: 20%;" />
+                <h2 class="mt-5">ProxClips</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="col-md-12">
+            <p class="lead">Thank you for submitting. Your download should begin shortly</p>
+            <p>To submit another clip, click <a href="{{ url_for('index') }}">here</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
