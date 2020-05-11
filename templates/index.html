@@ -11,6 +11,7 @@
     <meta name="robots" content="index, follow" />
     <meta name="keywords" content="proximity racing, proximity, proximityracing, iracing, chris nosowsky">
     <link rel="stylesheet" href = "{{ url_for('static',filename='styles/bootstrap.min.css') }}" media="screen">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -36,6 +37,9 @@
                     <input type="text" class="form-control" name="link">
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
+                {% if error %}
+                    <p class="text-warning">Error: {{error}}</p>
+                {% endif %}
             </form>
         </div>
     </div>
