@@ -3,11 +3,10 @@ import os
 
 
 def get_youtube(link):
-    downloadPath = get_download_path()
-    print(downloadPath)
-    print(link, '  LINKY POO')
-    #yt = YouTube(link).streams.first().download("C:/Users/Racec/OneDrive/Videos/")
-    #print(yt.title, " has been downloaded!")
+    """Gets a YouTube link from the front-end and downloads it to users default download path"""
+    download_path = get_download_path()
+    yt = YouTube(link).streams.first().download(download_path)
+    print(yt.title, " has been downloaded!")
 
 
 def get_download_path():
