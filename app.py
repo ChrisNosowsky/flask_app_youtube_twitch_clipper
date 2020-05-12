@@ -23,17 +23,17 @@ def index_post():
         return render_template('index.html', error=error)
 
 
-@app.route('/submitted')
+@app.route('/submitted', methods=["GET", "POST"])
 def submitted():
     return render_template("submitted.html")
 
 
-@app.route('/download')
+@app.route('/download', methods=["GET", "POST"])
 def download():
+    done = "Download finished! Should be in your downloads directory"
     link = session.get("link", None)
-    print(link)
     pythonYoutube.get_youtube(link)
-    return render_template("submitted.html")
+    return render_template("submitted.html", done=done)
 
 
 
