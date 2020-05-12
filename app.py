@@ -1,8 +1,9 @@
-from flask import Flask, render_template, request, redirect, url_for, session
+from flask import Flask, render_template, request, redirect, url_for, session, send_file
 import pythonYoutube
-
+import time
 app = Flask(__name__)             # create an app instance
 app.secret_key = "prox potato pop potato hot potato give me prox"
+
 
 @app.route("/")                   # at the end point /
 def index():                      # call method hello
@@ -24,9 +25,16 @@ def index_post():
 
 @app.route('/submitted')
 def submitted():
+    return render_template("submitted.html")
+
+
+@app.route('/download')
+def download():
     link = session.get("link", None)
+    print(link)
     pythonYoutube.get_youtube(link)
     return render_template("submitted.html")
+
 
 
 if __name__ == '__main__':

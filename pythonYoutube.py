@@ -1,11 +1,19 @@
 from pytube import YouTube
+from moviepy.editor import *
 import os
 
 
 def get_youtube(link):
     """Gets a YouTube link from the front-end and downloads it to users default download path"""
     download_path = get_download_path()
-    yt = YouTube(link).streams.first().download(download_path)
+    yt = YouTube(link)
+    yt.streams.first().download(download_path)
+    filename = yt.streams.first().default_filename
+    full_path = download_path + '\\' + filename
+    video = VideoFileClip(full_path)
+    video_cut = video.subclip(20,25)
+    video_cut.write_videofile(download_path + '\\' + 'CLIPPEDIT.mp4')
+
     print(yt.title, " has been downloaded!")
 
 
