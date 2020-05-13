@@ -16,8 +16,8 @@ def get_youtube(link):
         #download_path = get_download_path()
         yt = YouTube(link)
         bounds = get_bounds(timestamp, yt)
-        yt.streams.first().download("/app/download_vids/")
-        print("HEY!!!!!!!!!!!!!!!!!!!!")
+        yt.streams.first().download()
+        
         # filename = yt.streams.first().default_filename
         # full_path = download_path + '\\' + filename
         # video = VideoFileClip(full_path)
