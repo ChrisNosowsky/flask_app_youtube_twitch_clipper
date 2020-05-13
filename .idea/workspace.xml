@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e83a2e16-cb3c-4457-a4a8-9cf9dfa30967" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/pythonYoutube.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/pythonYoutube.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +41,7 @@
       <recent name="C:\Users\Racec\PycharmProjects\ProxClips\eflask" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.wsgi">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProxClips" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,8 +84,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="wsgi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ProxClips" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wsgi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.wsgi" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.main" />
       </list>
@@ -110,22 +131,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="725" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589333289904" />
-    <state width="1899" height="315" key="GridCell.Tab.0.bottom" timestamp="1589331858659">
+    <state width="1899" height="315" key="GridCell.Tab.0.bottom" timestamp="1589336428470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589331858659" />
-    <state width="1899" height="315" key="GridCell.Tab.0.center" timestamp="1589331858659">
+    <state width="1899" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589336428470" />
+    <state width="1899" height="315" key="GridCell.Tab.0.center" timestamp="1589336428469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="315" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589331858659" />
-    <state width="1899" height="315" key="GridCell.Tab.0.left" timestamp="1589331858659">
+    <state width="1899" height="315" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589336428469" />
+    <state width="1899" height="315" key="GridCell.Tab.0.left" timestamp="1589336428469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="315" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589331858659" />
-    <state width="1899" height="315" key="GridCell.Tab.0.right" timestamp="1589331858659">
+    <state width="1899" height="315" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589336428469" />
+    <state width="1899" height="315" key="GridCell.Tab.0.right" timestamp="1589336428469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="315" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589331858659" />
+    <state width="1899" height="315" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589336428469" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1589331853583">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
