@@ -13,15 +13,15 @@ def get_youtube(link):
                 timestamp += link[i]
             else:
                 break
-        download_path = get_download_path()
+        #download_path = get_download_path()
         yt = YouTube(link)
         bounds = get_bounds(timestamp, yt)
-        yt.streams.first().download(download_path)
-        filename = yt.streams.first().default_filename
-        full_path = download_path + '\\' + filename
-        video = VideoFileClip(full_path)
-        video_cut = video.subclip(bounds[0], bounds[1])
-        video_cut.write_videofile(download_path + '\\' + "CLIPPED.mp4")
+        yt.streams.first().download()
+        # filename = yt.streams.first().default_filename
+        # full_path = download_path + '\\' + filename
+        # video = VideoFileClip(full_path)
+        # video_cut = video.subclip(bounds[0], bounds[1])
+        # video_cut.write_videofile(download_path + '\\' + "CLIPPED.mp4")
     except:
         print("ERROR. PLEASE RETURN TO PREVIOUS SCREEN AND TRY AGAIN")
 
