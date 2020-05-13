@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e83a2e16-cb3c-4457-a4a8-9cf9dfa30967" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonYoutube.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonYoutube.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/submitted.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/submitted.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,10 +34,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.documentation.PythonDocumentationConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.app (1)">
-    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProxClips" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -48,7 +49,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Racec\PycharmProjects\ProxClips\__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -57,7 +58,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProxClips" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,7 +70,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Racec\PycharmProjects\ProxClips\app.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Racec\PycharmProjects\ProxClips\__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,8 +81,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app (1)" />
-        <item itemvalue="Python.app" />
+        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.__init__" />
       </list>
     </recent_temporary>
   </component>
@@ -99,30 +100,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="160" key="GridCell.Tab.0.bottom" timestamp="1589326553614">
+    <state width="1899" height="315" key="GridCell.Tab.0.bottom" timestamp="1589331858659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="160" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589326553614" />
-    <state width="1899" height="160" key="GridCell.Tab.0.center" timestamp="1589326553614">
+    <state width="1899" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589331858659" />
+    <state width="1899" height="315" key="GridCell.Tab.0.center" timestamp="1589331858659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="160" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589326553614" />
-    <state width="1899" height="160" key="GridCell.Tab.0.left" timestamp="1589326553613">
+    <state width="1899" height="315" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589331858659" />
+    <state width="1899" height="315" key="GridCell.Tab.0.left" timestamp="1589331858659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="160" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589326553613" />
-    <state width="1899" height="160" key="GridCell.Tab.0.right" timestamp="1589326553614">
+    <state width="1899" height="315" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589331858659" />
+    <state width="1899" height="315" key="GridCell.Tab.0.right" timestamp="1589331858659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="160" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589326553614" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1589319392282">
+    <state width="1899" height="315" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589331858659" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1589331853583">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589319392282" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589331853583" />
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1589234929103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589234929103" />
+    <state x="588" y="326" key="com.jetbrains.python.documentation.PythonDocumentationEntryEditor" timestamp="1589331700192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="588" y="326" key="com.jetbrains.python.documentation.PythonDocumentationEntryEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589331700192" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589218633820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

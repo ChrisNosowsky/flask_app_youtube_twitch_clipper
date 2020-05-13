@@ -5,16 +5,39 @@ import os
 
 def get_youtube(link):
     """Gets a YouTube link from the front-end and downloads it to users default download path"""
-    download_path = get_download_path()
-    yt = YouTube(link)
-    yt.streams.first().download(download_path)
-    filename = yt.streams.first().default_filename
-    full_path = download_path + '\\' + filename
-    video = VideoFileClip(full_path)
-    video_cut = video.subclip(20,25)
-    video_cut.write_videofile(download_path + '\\' + 'CLIPPEDIT.mp4')
+    try:
+        timestamp_index = link.find('&t=') + 3
+        timestamp = ""
+        for i in range(timestamp_index, len(link)):
+            if link[i].isdigit():
+                timestamp += link[i]
+            else:
+                break
+        download_path = get_download_path()
+        yt = YouTube(link)
+        bounds = get_bounds(timestamp, yt)
+        yt.streams.first().download(download_path)
+        filename = yt.streams.first().default_filename
+        full_path = download_path + '\\' + filename
+        video = VideoFileClip(full_path)
+        video_cut = video.subclip(bounds[0], bounds[1])
+        video_cut.write_videofile(download_path + '\\' + "CLIPPED.mp4")
+    except:
+        print("ERROR. PLEASE RETURN TO PREVIOUS SCREEN AND TRY AGAIN")
 
-    print(yt.title, " has been downloaded!")
+
+def get_bounds(timestamp, yt):
+    if int(timestamp) - 30 < 0:
+        lower_bound = 0
+    else:
+        lower_bound = int(timestamp) - 30
+
+    if yt.length < int(timestamp) + 60:
+        upper_bound = yt.length
+    else:
+        upper_bound = int(timestamp) + 60
+
+    return [lower_bound, upper_bound]
 
 
 def get_download_path():

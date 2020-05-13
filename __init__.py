@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, session, send_file
 import pythonYoutube
-import time
+
 app = Flask(__name__)             # create an app instance
 app.secret_key = "prox potato pop potato hot potato give me prox"
 
@@ -15,11 +15,11 @@ def index():                      # call method hello
 def index_post():
     link = request.form['link']
     error = None
-    if "https://" in link and "youtube.com" in link:
+    if "https://" in link and "youtube.com" in link and "&t=" in link:
         session['link'] = link
         return redirect(url_for('submitted'))
     else:
-        error = "Invalid Link"
+        error = "Invalid Link. Please make sure you provided a timestamp (&t=)"
         return render_template('index.html', error=error)
 
 
@@ -35,6 +35,9 @@ def download():
     pythonYoutube.get_youtube(link)
     return render_template("submitted.html", done=done)
 
+
+def getApp():
+    return app
 
 
 if __name__ == '__main__':

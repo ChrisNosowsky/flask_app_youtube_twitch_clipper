@@ -32,10 +32,15 @@
     <div class="container mt-5">
         <div class="col-md-12">
             <p class="lead">Thank you for submitting.</p>
-            <form method="POST">
-                <p>Click <a href="/download">here</a> to download.</p>
+            <form method="GET">
+                <p>Click <a onclick="getDatWait()" href="/download">here</a> to download.</p>
             </form>
-            <p>{{done}}</p>
+            <p id="done">{{done}}</p>
+            <script>
+                function getDatWait() {
+                    document.getElementById('done').innerHTML = "Waiting for download to complete...";
+                }
+            </script>
             <p>To submit another clip, click <a href="{{ url_for('index') }}">here</a>.</p>
         </div>
     </div>
