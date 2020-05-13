@@ -1,5 +1,5 @@
-from flask import Flask, render_template, request, redirect, url_for, session, send_file
-import pythonYoutube
+from flask import Flask, render_template, request, redirect, url_for, session
+from app import pythonYoutube
 
 app = Flask(__name__)             # create an app instance
 app.secret_key = "prox potato pop potato hot potato give me prox"
@@ -36,9 +36,3 @@ def download():
     return render_template("submitted.html", done=done)
 
 
-def getApp():
-    return app
-
-
-if __name__ == '__main__':
-    app.run(debug=True)

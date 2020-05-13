@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e83a2e16-cb3c-4457-a4a8-9cf9dfa30967" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonYoutube.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonYoutube.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/submitted.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/submitted.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonYoutube.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/pythonYoutube.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,13 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Racec\PycharmProjects\ProxClips" />
+      <recent name="C:\Users\Racec\PycharmProjects\ProxClips\eflask" />
+      <recent name="C:\Users\Racec\PycharmProjects\ProxClips\app" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProxClips" />
@@ -58,7 +66,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProxClips" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,7 +78,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Racec\PycharmProjects\ProxClips\__init__.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Racec\PycharmProjects\ProxClips\app\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,7 +90,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.__init__" />
-        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -100,6 +108,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="725" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589333289904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="725" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589333289904" />
     <state width="1899" height="315" key="GridCell.Tab.0.bottom" timestamp="1589331858659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
