@@ -3,7 +3,38 @@
   <component name="ChangeListManager">
     <list default="true" id="e83a2e16-cb3c-4457-a4a8-9cf9dfa30967" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pythonYoutube.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/pythonYoutube.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pythonYoutube.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonYoutube.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/ProximityRacing_Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/ProximityRacing_Logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/styles/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/styles/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/bootstrap-grid.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/styles/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/styles/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/bootstrap-grid.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/styles/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/styles/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/bootstrap-reboot.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/styles/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/styles/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/styles/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/styles/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/styles/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/styles/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/submitted.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/submitted.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download_vids/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download_vids/testfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsgi.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +72,7 @@
       <recent name="C:\Users\Racec\PycharmProjects\ProxClips\eflask" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.wsgi">
+  <component name="RunManager" selected="Python.app">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProxClips" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProxClips" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,7 +106,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Racec\PycharmProjects\ProxClips\app\main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Racec\PycharmProjects\ProxClips\app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,9 +138,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.wsgi" />
         <item itemvalue="Python.__init__" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -131,30 +162,35 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="725" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589398505448" />
-    <state width="1899" height="315" key="GridCell.Tab.0.bottom" timestamp="1589397545107">
+    <state width="1899" height="315" key="GridCell.Tab.0.bottom" timestamp="1590542774192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589397545107" />
-    <state width="1899" height="315" key="GridCell.Tab.0.center" timestamp="1589397545107">
+    <state width="1899" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1590542774192" />
+    <state width="1899" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590534923305" />
+    <state width="1899" height="315" key="GridCell.Tab.0.center" timestamp="1590542774192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="315" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589397545107" />
-    <state width="1899" height="315" key="GridCell.Tab.0.left" timestamp="1589397545107">
+    <state width="1899" height="315" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1590542774192" />
+    <state width="1899" height="315" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590534923305" />
+    <state width="1899" height="315" key="GridCell.Tab.0.left" timestamp="1590542774192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="315" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589397545107" />
-    <state width="1899" height="315" key="GridCell.Tab.0.right" timestamp="1589397545107">
+    <state width="1899" height="315" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1590542774192" />
+    <state width="1899" height="315" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590534923301" />
+    <state width="1899" height="315" key="GridCell.Tab.0.right" timestamp="1590542774192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="315" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589397545107" />
+    <state width="1899" height="315" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1590542774192" />
+    <state width="1899" height="315" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590534923305" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1589397535876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589397535876" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1589389032219">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1590542872415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589389032219" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1590542872415" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590529998939" />
     <state x="588" y="326" key="com.jetbrains.python.documentation.PythonDocumentationEntryEditor" timestamp="1589331700192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
