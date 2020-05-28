@@ -36,12 +36,9 @@
                 <p>Click <a onclick="getDatWait()" href="/download">here</a> to download.</p>
             </form>
             <p id="done">{{done}}</p>
-            {% if downloadPath %}
-                <a href="{{ downloadPath }}" download><button class="btn btn-success">Download!</button></a>
-            {% endif %}
             <script>
                 function getDatWait() {
-                    document.getElementById('done').innerHTML = "Waiting for download to complete...";
+                    document.getElementById('done').innerHTML = "Waiting for download to complete...could take a minute depending on video length";
                 }
             </script>
             <p>To submit another clip, click <a href="{{ url_for('index') }}">here</a>.</p>

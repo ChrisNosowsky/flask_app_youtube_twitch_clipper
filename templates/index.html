@@ -12,6 +12,17 @@
     <meta name="keywords" content="proximity racing, proximity, proximityracing, iracing, chris nosowsky">
     <link rel="stylesheet" href = "{{ url_for('static',filename='styles/bootstrap.min.css') }}" media="screen">
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+
+        var url = 'http://127.0.0.1:5000/GUI-is-still-open';
+        fetch(url, { mode: 'no-cors'});
+        setInterval(function(){ fetch(url, { mode: 'no-cors'});}, 5000)();
+
+    });
+
+    </script>
 </head>
 <body>
     <div class="container">
@@ -28,7 +39,7 @@
                 <h2 class="mt-5">ProxClips</h2>
                 <br>
                 <p style="font-family: Arial, Helvetica, sans-serif !important;">Put a YouTube link in the input box below and it will clip the video 30 seconds before the timestamp, and a minute after the desired timestamp.
-                    You MUST provide a timestamp (that is, the &t= in the URL).
+                    You MUST provide a timestamp (that is, the ?t= in the URL).
                 </p>
             </div>
         </div>
